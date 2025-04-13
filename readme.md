@@ -40,30 +40,6 @@ A Spring Boot application that demonstrates subscription management functionalit
    gradlew.bat test
    ```
 
-## Setting up GitHub Repository
-
-1. Create a new repository on GitHub
-2. Initialize the local repository with GitHub (if not already done):
-
-   ```bash
-   # If repository is not initialized yet
-   git init
-   git add .
-   git commit -m "Initial commit"
-   
-   # Add GitHub as remote and push
-   git remote add origin https://github.com/your-username/Demo-UT.git
-   git push -u origin main
-   ```
-
-3. If you're pushing an existing repository:
-
-   ```bash
-   git remote add origin https://github.com/your-username/Demo-UT.git
-   git branch -M main
-   git push -u origin main
-   ```
-
 ## Project Structure
 
 - Java classes: `./src/main/java/com/example/demo/` and subfolders

@@ -1,3 +1,44 @@
+# Handle line endings automatically for files detected as text
+# and leave all files detected as binary untouched
+* text=auto
+
+# Force Unix line endings for Gradle wrapper and shell scripts
 /gradlew text eol=lf
+*.sh text eol=lf
+
+# Force Windows line endings for batch files
 *.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Declare files that will always have CRLF line endings on checkout
+*.sln text eol=crlf
+
+# Denote all files that are truly binary and should not be modified
 *.jar binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.rar binary
+*.pdf binary
+
+# Java files
+*.java text
+*.properties text
+
+# XML files
+*.xml text
+
+# JSON files
+*.json text
+
+# Markdown files
+*.md text diff
+
+# YAML files
+*.yml text
+*.yaml text
